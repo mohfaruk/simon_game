@@ -1,0 +1,69 @@
+body {
+  text-align: center;
+  background-color: #ADD8E6;
+}
+
+/* Utilities */
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+/* Main Heading */
+#level-title {
+  font-family: 'Audiowide', cursive;
+  font-size: 4rem;
+  margin:  5%;
+  letter-spacing: 3px;
+  word-spacing: 15px;
+  color: #FEF2BF;
+}
+
+#player-score {
+  font-family: 'Audiowide', cursive;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  color: #FEF2BF;
+}
+
+/* Buttons */
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  transition: 100ms;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+/* In-Game Actions */
+.pressed {
+  box-shadow: 0 0 20px white;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}

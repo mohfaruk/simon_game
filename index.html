@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon Game</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="#" />
+  </head>
+
+  <body>
+    <!-- Main Header -->
+    <h1 id="level-title">Press any Key to Play</h1>
+
+    <!-- Button Sections -->
+    <div class="container">
+      <div class="row">
+        <div type="button" id="green" class="btn green"></div>
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+      </div>
+    </div>
+
+    <!-- Display Score -->
+    <div id="score">
+      <h2 id="player-score"></h2>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="game.js" charset="utf-8"></script>
+  </body>
+</html>
